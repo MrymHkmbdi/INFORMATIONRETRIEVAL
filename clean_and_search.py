@@ -4,6 +4,7 @@ import pandas as pd
 from cleantext import clean
 from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
+from input_cleaning.py import input_cleaning()
 
 # read from plot_summaries.txt and convert it to csv file
 df = pd.read_csv('/put plot_summaries.txt directory address here', delimiter='\t', names=['id', 'overview'])
