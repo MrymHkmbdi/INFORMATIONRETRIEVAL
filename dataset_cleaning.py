@@ -1,6 +1,9 @@
-def input_cleaning(data):
+# do preproccess on given input which is a dataframe
+def dataset_cleaning(data):
   ps = PorterStemmer()
   cleans_data=[]
+  
+  # iterate over 'overview' column of each row and clean it
   for i in range(0,len(data)):
   clean_data=clean(data.loc[i,"overview"],
         fix_unicode=True,               # fix various unicode errors
