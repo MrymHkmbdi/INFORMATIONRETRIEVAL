@@ -1,3 +1,5 @@
+# this function returns a dict which key is each word of document and
+# value is a list of movie ids that contain the key word
 def inverted_index(cleaned_data_file):
   inv_idx_dict = {}
   for i in range(0, len(clened_data_file)):
