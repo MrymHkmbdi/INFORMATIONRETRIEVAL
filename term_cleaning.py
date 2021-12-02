@@ -1,4 +1,4 @@
-def query_cleaning(cleaned_data_file, input_term):
+def term_cleaning(cleaned_data_file, input_term):
   cleaned_data_file = pd.read_csv('/content/drive/MyDrive/Colab Notebooks/plot_cleaned.csv',encoding='utf-8')
   ps = PorterStemmer()
   cleans_data=[]
