@@ -10,6 +10,7 @@ from inverted_index.py import inverted_index()
 from dataset_cleaning.py import dataset_cleaning()
 from print_ten_most_related.py import print_ten_most_related()
 
+# ------- dataset (contains plot_summaries.txt) can be found in http://www.cs.cmu.edu/~ark/personas/ -------
 
 
 # read from plot_summaries.txt and convert it to csv file
